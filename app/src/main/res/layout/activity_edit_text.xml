@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:hint="Normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="Digits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="ABCD\n"/>
+
+    <EditText
+        android:hint="IME-ActionNone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="text"
+        android:imeOptions="actionNone"/>
+
+    <EditText
+        android:hint="IME-ActionGo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="text"
+        android:imeOptions="actionGo"/>
+
+    <EditText
+        android:hint="IME-ActionSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="text"
+        android:imeOptions="actionSearch"/>
+
+    <EditText
+        android:hint="IME-ActionSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="text"
+        android:imeOptions="actionSend"/>
+
+    <EditText
+        android:hint="IME-ActionNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="text"
+        android:imeOptions="actionNext"/>
+
+    <EditText
+        android:hint="IME-ActionDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="text"
+        android:imeOptions="actionDone"/>
+
+    <EditText
+        android:hint="IME-ActionPrevious"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="text"
+        android:imeOptions="actionPrevious"/>
+
+</LinearLayout>

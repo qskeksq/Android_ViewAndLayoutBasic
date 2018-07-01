@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".widget.TextViewActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:shadowColor="#000000"
+        android:shadowDx="3.0"
+        android:shadowDy="3.0"
+        android:shadowRadius="3.0"
+        android:text="drop shadow1"
+        android:textAllCaps="true"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:shadowColor="#000000"
+        android:shadowDx="3.0"
+        android:shadowDy="-3.0"
+        android:shadowRadius="3.0"
+        android:text="drop shadow2"
+        android:textAllCaps="true"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:shadowColor="#FF0000"
+        android:shadowDx="3.0"
+        android:shadowDy="3.0"
+        android:shadowRadius="3.0"
+        android:text="drop shadow3"
+        android:textAllCaps="true"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:shadowColor="#444444"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5.0"
+        android:text="outer shadow"
+        android:textAllCaps="true"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="#ffffff"
+        android:background="#ffffff"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="2.0"
+        android:text="outer shadow2"
+        android:textAllCaps="true"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="#000000"
+        android:background="#000000"
+        android:shadowColor="#00ff00"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="2.0"
+        android:text="outer shadow2"
+        android:textAllCaps="true"
+        android:gravity="center"/>
+
+
+</LinearLayout>
